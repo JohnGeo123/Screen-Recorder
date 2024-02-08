@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #972f2f; 
+    color: #ff0404; 
+  }
+  
+  .container {
+    max-width: 100%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #000000; 
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 17, 114, 0.1); 
+    
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #aa0069; 
+    color: #fff; 
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  button:hover {
+    background-color: #0056b3; 
+  }
+  
+  button:disabled {
+    background-color: #c4c700; 
+    cursor: not-allowed;
+    
+  }
+  
